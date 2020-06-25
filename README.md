@@ -1,1 +1,5 @@
-# **WebProxy**: Home Assistant Addon To Proxy Port 80 -> 8123 Using **NodeJS** and **http-proxy**
+# **WebProxy**: Home Assistant Addon
+  
+## Proxy Port 80 -> 8123
+
+### Powered By **NodeJS** and **http-proxy**
