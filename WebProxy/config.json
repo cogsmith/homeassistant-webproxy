@@ -1,6 +1,6 @@
 {
   "name": "WebProxy",
-  "version": "1.04",
+  "version": "1.05",
   "slug": "webproxy",
   "panel_icon": "mdi:web-box",
   "description": "Proxy Port 80 -> 8123",
