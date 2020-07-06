@@ -23,8 +23,13 @@ App.Run = function () {
 
     var proxyServer = http.createServer(function (req,res) {
         var ip=req.connection.remoteAddress;
-        if (ip.substr(0,3)=='10.') { return proxy.web(req,res,{}); }
+
+                if (ip.substr(0,3)=='10.') { return proxy.web(req,res,{}); }
         if (ip.substr(0,10)=='::ffff:10.') { return proxy.web(req,res,{}); }
+
+                if (ip.substr(0,8)=='192.168.') { return proxy.web(req,res,{}); }
+        if (ip.substr(0,15)=='::ffff:192.168.') { return proxy.web(req,res,{}); }
+
         res.end('DENY:'+ip);
     });
 
