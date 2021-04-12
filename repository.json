@@ -1,5 +1,5 @@
 {
-  "name": "homeassistant-webproxy",
+  "name": "HXPROXY: Forward Port 80 -> 8123",
   "url": "http://github.com/cogsmith/homeassistant-webproxy",
   "maintainer": "DAC <dac@cogsmith.com>"
 }
