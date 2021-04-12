@@ -1,11 +1,17 @@
 {
-  "name": "WebProxy",
-  "version": "1.05",
-  "slug": "webproxy",
+  "name": "HXPROXY",
+  "version": "0.0.0",
+  "slug": "hxproxy",
   "panel_icon": "mdi:web-box",
   "description": "Proxy Port 80 -> 8123",
-  "url": "https://github.com/COGSMITH/HX-WebProxy",
-  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "url": "https://github.com/cogsmith/homeassistant-webproxy",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
   "startup": "application",
   "boot": "auto",
   "host_network": true,
