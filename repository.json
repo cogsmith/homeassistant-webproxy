@@ -1,5 +1,5 @@
 {
-    "name": "HX-WebProxy",
-    "url": "http://github.com/COGSMITH/HX-WebProxy",
-    "maintainer": "DAC <dac@cogsmith.com>"
-  }
+  "name": "homeassistant-webproxy",
+  "url": "http://github.com/cogsmith/homeassistant-webproxy",
+  "maintainer": "DAC <dac@cogsmith.com>"
+}
